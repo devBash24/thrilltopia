@@ -27,7 +27,7 @@ const About = () => {
           >
             <div className='aspect-video relative rounded-2xl overflow-hidden'>
               <Image
-                src="/assets/about.webp" // Replace with your park image
+                src="/assets/about.webp" 
                 alt="Wonderland Park Overview"
                 fill
                 className='object-cover'
@@ -97,7 +97,7 @@ const About = () => {
                 { number: '30+', label: 'Attractions' },
                 { number: '15+', label: 'Restaurants' },
                 { number: '1M+', label: 'Yearly Visitors' }
-              ].map((stat, index) => (
+              ].map((stat) => (
                 <motion.div
                   key={stat.label}
                   whileHover={{ scale: 1.05 }}
